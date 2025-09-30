@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Sunny Beatriz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Sunny Beatriz</h1>
+        <p>Técnica em Energias Renováveis - Cursando Desenvolvimento de Sistemas</p>
+    
+    </header>
+
+    <section class="about">
+        <h2>Sobre Mim</h2>
+        <p>Concluí o ensino médio técnico em Energias Renováveis pelo SESI SENAI em 2024, período no qual adquiri conhecimentos em desenho de sistemas de energias renováveis no AutoCAD, montagem de painéis solares e noções de instalações prediais. Além disso, participei da construção de um carrinho movido a energia solar, aplicando na prática os conceitos aprendidos.</p>
+        <p>Atualmente, atuo como menor aprendiz na Canal Construtora, onde curso Desenvolvimento de Sistemas pelo SENAI. Busco aprimorar meus conhecimentos em tecnologia e engenharia, com o objetivo de ingressar na faculdade de Engenharia de Computação.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <p>Site de terapia com IA - Ainda em desenvolvimento...</p>
+            <a href="https://sunnybeatriz.github.io/dds4/">Ver projeto</a>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Educação</h2>
+        <ul>
+            <li><strong>Ensino Médio Técnico:</strong> SESI SENAI Civit (2022 - 2024)</li>
+            <li><strong>Menor Aprendiz:</strong> Canal Construtora - SENAI Civit (2024 – 2026)</li>
+            <li><strong>Curso de Inglês:</strong> CCAA e CNA – Inglês básico</li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2>Experiências</h2>
+        <p><strong>Desenvolvedora de Sistemas</strong><br>
+        Canal Construtora - SENAI Civit<br>
+        Outubro 2024 – Presente</p>
+        <p>Formação voltada para desenvolvimento de softwares, com foco em lógica de programação, banco de dados, análise de sistemas, desenvolvimento web e mobile. Aprendizagem prática de linguagens como HTML, JavaScript, entre outras. Capacitação para criar, testar e manter sistemas e aplicações.</p>
+    </section>
+
+    <section class="curriculo">
+    <h2>Currículo</h2>
+    <p>Você pode baixar meu currículo em PDF clicando no botão abaixo:</p>
+    <a href="{{ url_for('static', filename='') }}" class="btn-cv" download>
+        📄 Baixar Currículo
+    </a>
+</section> 
+
+    <footer>
+        <p>Contato: <a href="mailto:biabeaumontt23@gmail.com">biabeaumontt23@gmail.com</a> | 
+        <a href="#" target="_blank">LinkedIn</a> | 
+        <a href="#" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
